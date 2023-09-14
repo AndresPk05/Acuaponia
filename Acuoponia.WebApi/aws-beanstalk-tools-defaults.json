@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : true,
+    "application"    : "AcuoponiaWebApi",
+    "environment"    : "AcuoponiaWebApi-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "proxy-server"         : "none",
+    "app-path"             : "/",
+    "iis-website"          : "Default Web Site",
+    "solution-stack"       : "64bit Windows Server 2019 v2.8.3 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "acuoponiawebapi-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role"
+}
